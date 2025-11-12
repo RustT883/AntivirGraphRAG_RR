@@ -10,7 +10,7 @@ AntivirGraphRAG is a knowledge graph-based retrieval augmented generation system
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10+
 - Virtual environment tool (venv or conda)
 
 ### Installation
@@ -25,7 +25,7 @@ AntivirGraphRAG is a knowledge graph-based retrieval augmented generation system
 
    Or using conda:
    ```bash
-   conda create -n antivirgraphrag-env python=3.8
+   conda create -n antivirgraphrag-env python=3.10
    conda activate antivirgraphrag-env
    ```
 
