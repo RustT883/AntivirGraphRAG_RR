@@ -38,10 +38,10 @@ AntivirGraphRAG is a knowledge graph-based retrieval augmented generation system
 
 3. **Download required files from Google Drive:**
 
-   Download the following files from [Google Drive](https://drive.google.com/drive/folders/1-ve0xTQXbxggwnByFfTu8AhSG2xMkCgc?usp=sharing):
+   Download the following files from [Zenodo](https://doi.org/10.5281/zenodo.18047501)
    - `all_texts_for_drugs_processed.csv`
-   - `NER_Model` (folder)
-   - `Drugprot_REL_model` (folder)
+   - `NER_Model.tar.gz` (archive)
+   - `Drugprot_REL_model.tar.gz` (archive)
 
    Place these in your project root directory.
 
