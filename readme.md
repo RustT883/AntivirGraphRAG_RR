@@ -27,7 +27,7 @@ AntivirGraphRAG integrates:
 - **Knowledge Graph Construction** for structured biomedical knowledge representation
 - **Retrieval-Augmented Generation** for context-aware question answering
 
-Built on the [GLiREL](https://github.com/urchade/GLiREL) framework for biomedical relation extraction.
+Built on the [GLiREL](https://github.com/urchade/GLiREL) framework.
 
 ## 💻 System Requirements
 
@@ -165,6 +165,13 @@ The following packages utilize GPU acceleration:
 - **ChromaDB** (0.6.3): Vector database
 - **sentence-transformers** (3.0.1): Embedding models
 
+## Checksums
+
+Checksums provided for all files. Zenodo models listed separately.
+
+Generate: `python checksums.py`  
+Verify: `python verify.py`
+
 ### GPU/CUDA Libraries
 ```txt
 torch==2.7.0+cu128
@@ -176,3 +183,4 @@ flash_attn==2.8.3
 ```
 
 ### Full dependency list available in `requirements.txt`
+
