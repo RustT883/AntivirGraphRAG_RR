@@ -32,9 +32,10 @@ Built on the [GLiREL](https://github.com/urchade/GLiREL) framework.
 ## 💻 System Requirements
 
 ### Tested Hardware Configuration
-- **GPU**: NVIDIA GeForce RTX 5080 (16GB VRAM) - **peak usage: ~6GB VRAM**
-- **RAM**: 32GB system memory
+- **GPU**: NVIDIA GeForce RTX 5080 (16GB VRAM) + NVIDIA GeForce RTX 3060 Movile (6 GB VRAM) 
+- **RAM**: 11th Gen Intel i7-11700 (8 cores and 16 threads, 32 GB) + AMD Ryzen 5600H (6 cores and 12 threads, 8 GB)
 - **Storage**: 20GB free space for models and data
+- **Peak and latency during inference**: <5.5 GB VRAM  with ~10 seconds per query end-to-end on full system
 
 ### Software
 - **OS**: Tested on Linux (Ubuntu 22.04, Ubuntu 20.04)
