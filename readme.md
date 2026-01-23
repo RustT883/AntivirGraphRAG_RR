@@ -29,7 +29,7 @@ AntivirGraphRAG integrates:
 
 Built on the [GLiREL](https://github.com/urchade/GLiREL) framework.
 
-## 💻 System Requirements
+## System Requirements
 
 ### Tested Hardware Configuration
 - **GPU**: NVIDIA GeForce RTX 5080 (16GB VRAM) + NVIDIA GeForce RTX 3060 Movile (6 GB VRAM) 
