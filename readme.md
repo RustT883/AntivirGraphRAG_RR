@@ -160,7 +160,7 @@ The following packages utilize GPU acceleration:
 ## 📦 Dependencies
 
 ### Core Libraries
-- **GLiREL** (1.2.1): Biomedical relation extraction framework
+- **GLiREL** (1.2.1)
 - **LangChain** (0.3.25): LLM application framework
 - **spaCy** (3.7.5): NLP processing
 - **ChromaDB** (0.6.3): Vector database
