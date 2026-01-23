@@ -8,7 +8,7 @@
 
 A knowledge graph-based Retrieval-Augmented Generation (RAG) system for antiviral drug research that combines Named Entity Recognition (NER) and Relation Extraction (RE) models to build comprehensive knowledge graphs from biomedical literature.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [System Requirements](#-system-requirements)
 - [Installation](#-installation)
@@ -19,7 +19,7 @@ A knowledge graph-based Retrieval-Augmented Generation (RAG) system for antivira
 - [Hardware Specifications](#-hardware-specifications)
 - [Dependencies](#-dependencies)
 
-## 🔍 Overview
+## Overview
 
 AntivirGraphRAG integrates:
 - **Named Entity Recognition (NER)** for extracting drug-related entities
@@ -43,7 +43,7 @@ Built on the [GLiREL](https://github.com/urchade/GLiREL) framework.
 - **CUDA**: 12.8 (compatible with driver version 570.153.02)
 - **NVIDIA Drivers**: 570.153.02
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone Repository
 ```bash
@@ -71,7 +71,7 @@ conda activate antivirgraphrag-env
 pip install -r requirements.txt
 ```
 
-## 📊 Data & Model Setup
+## Data & Model Setup
 
 ### Download Required Files
 Download from [Zenodo](https://doi.org/10.5281/zenodo.18047501):
@@ -91,14 +91,14 @@ python create_bm25s_index.py
 python make_chroma_store.py
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Run Main Application
 ```bash
 python antivir_graphrag.py
 ```
 
-## 📈 Evaluation
+## Evaluation
 
 ### 1. Prepare Evaluation Data
 ```bash
@@ -128,7 +128,7 @@ python antivir_graphrag_val_abl.py \
     --baseline "BM25_ONLY_RETRIEVAL_K=10"
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```
 AntivirGraphRAG/
 ├── README.md                 # This file
@@ -147,7 +147,7 @@ AntivirGraphRAG/
 └── Results/                 # Evaluation results
 ```
 
-## 🔧 Hardware Specifications
+## Hardware Specifications
 
 ### GPU-Intensive Dependencies
 The following packages utilize GPU acceleration:
@@ -157,7 +157,7 @@ The following packages utilize GPU acceleration:
 - **nvidia-cuda-***: CUDA toolkit components (12.8 compatible)
 - **onnxruntime** (1.22.0): Inference optimization
 
-## 📦 Dependencies
+## Dependencies
 
 ### Core Libraries
 - **GLiREL** (1.2.1)
